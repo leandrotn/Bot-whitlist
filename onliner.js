@@ -44,7 +44,7 @@ console.log(" ▒██░░░░▐█▀▀░▐█▄▄▐█▒▐█▒
 console.log(" ▒██▄▄█░▐█▄▄░▐█─░▐█▒██░▒██▌░▐█▄█▀▒▐█▀▄▄▒▐██▄█▌░▒▄█▄░▒██░▒██▌")
 console.log ("")
 console.log(chalk.underline(chalk.green(`                        By:LEANDROTN#0101`)));
-console.log(chalk.inverse(`[SISTEMA] - [Tokens Online!]`));
+console.log(chalk.inverse(`[SISTEMA] - [Deixando Tokens Online!]`));
 
 console.log();
 console.log();
