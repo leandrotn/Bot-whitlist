@@ -21,7 +21,7 @@ class Bot {
     online() {
         this.bot = new Discord.Client();
         this.bot.on('ready', () => {
-            console.log(chalk.green(`[SERVER]`) + `|` + (chalk.blueBright `Conectado! `) + (chalk.redBright `%s`) + ` |` + (chalk.blueBright ` ID: `) + (chalk.magenta `%s`) + ` at` + (chalk.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
+            console.log(chalk.green(`[SISTEMA]`) + `|` + (chalk.blueBright `Conectado! `) + (chalk.redBright `%s`) + ` |` + (chalk.blueBright ` ID: `) + (chalk.magenta `%s`) + ` at` + (chalk.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
             this.bot.on("message", async message => {})
         });
         this.bot.on('ready', () => {
