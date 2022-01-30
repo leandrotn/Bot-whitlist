@@ -21,15 +21,15 @@ class Bot {
     online() {
         this.bot = new Discord.Client();
         this.bot.on('ready', () => {
-            console.log(chalk.green(`[INFO]`) + `|` + (chalk.blueBright `Logged into `) + (chalk.redBright `%s`) + ` |` + (chalk.blueBright ` ID: `) + (chalk.magenta `%s`) + ` at` + (chalk.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
+            console.log(chalk.green(`[SERVER]`) + `|` + (chalk.blueBright `Conectado! `) + (chalk.redBright `%s`) + ` |` + (chalk.blueBright ` ID: `) + (chalk.magenta `%s`) + ` at` + (chalk.yellow ` "%s"`), this.bot.user.tag, this.bot.user.id, new Date().toLocaleTimeString());
             this.bot.on("message", async message => {})
         });
         this.bot.on('ready', () => {
             this.bot.user.setPresence({
                 game: {
-                    name: items[Math.floor(Math.random() * items.length)], //Thanks to vjjjj for helping figure this part out
+                    name: items[Math.floor(Math.random() * items.length)], //A TA BETÁ
                     type: "PLAYING",
-                    url: "http://piggyawesome.com"
+                    url: "http://leandrotn.ga"
                 }
             });
         });
@@ -38,16 +38,15 @@ class Bot {
     }
 }
 
-process.title = ` Piggy's Onliner Epic [Multiple Accounts] Total Accounts: ${tokens.length}`;
-console.log(chalk.green(`Piggy's Onliner `) + (chalk.magenta(`Epic `)) + (chalk.cyanBright(`[Multiple Accounts] `)) + (chalk.red(`Total Accounts: ${tokens.length}`)));
-console.log("██████╗ ██╗ ██████╗  ██████╗██╗   ██╗███████╗     ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗██████╗ ");
-console.log("██╔══██╗██║██╔════╝ ██╔════╝╚██╗ ██╔╝██╔════╝    ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝██╔══██╗");
-console.log("██████╔╝██║██║  ███╗██║  ███╗╚████╔╝ ███████╗    ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗  ██████╔╝");
-console.log("██╔═══╝ ██║██║   ██║██║   ██║ ╚██╔╝  ╚════██║    ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝  ██╔══██╗");
-console.log("██║     ██║╚██████╔╝╚██████╔╝  ██║   ███████║    ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗██║  ██║");
-console.log("╚═╝     ╚═╝ ╚═════╝  ╚═════╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝");
-console.log(chalk.underline(chalk.green(`                        Created By PiggyAwesome`)));
-console.log(chalk.inverse(`[INFO] - [Token Onliner]`));
+process.title = `[SERVER] Contas Online: ${tokens.length}`;
+console.log(chalk.green(`Contas Online!`) + (chalk.magenta(`Epic `)) + (chalk.cyanBright(`[SISTEMA] `)) + (chalk.red(`Contas Online: ${tokens.length}`)));
+console.log ("")
+console.log(" ▒██░░░░▐█▀▀░░▄█▀▄─▒██▄░▒█▌░▐█▀█▄▒▐█▀▀▄▒▐█▀▀█▌▒█▀█▀█▒██▄░▒█▌")
+console.log(" ▒██░░░░▐█▀▀░▐█▄▄▐█▒▐█▒█▒█░░▐█▌▐█▒▐█▒▐█▒▐█▄▒█▌░░▒█░░▒▐█▒█▒█░")
+console.log(" ▒██▄▄█░▐█▄▄░▐█─░▐█▒██░▒██▌░▐█▄█▀▒▐█▀▄▄▒▐██▄█▌░▒▄█▄░▒██░▒██▌")
+console.log ("Kiba Ae Vacilão , é vai aprender A programar!")
+console.log(chalk.underline(chalk.green(`                        By:LEANDROTN#0101`)));
+console.log(chalk.inverse(`[SISTEMA] - [Token Onliner]`));
 
 console.log();
 console.log();
