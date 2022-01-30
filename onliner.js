@@ -38,7 +38,6 @@ class Bot {
 }
 
 process.title = ` [SISTEMA] Tokens Online: ${tokens.length}`;
-console.log(chalk.green(`DEIXANDO OS TOKEN Online: `) + (chalk.magenta(`Tá on! `)) + (chalk.cyanBright(`[SISTEMA] `)) + (chalk.red(`Tokens Online: ${tokens.length}`)));
 console.log ("")
 console.log(" ▒██░░░░▐█▀▀░░▄█▀▄─▒██▄░▒█▌░▐█▀█▄▒▐█▀▀▄▒▐█▀▀█▌▒█▀█▀█▒██▄░▒█▌")
 console.log(" ▒██░░░░▐█▀▀░▐█▄▄▐█▒▐█▒█▒█░░▐█▌▐█▒▐█▒▐█▒▐█▄▒█▌░░▒█░░▒▐█▒█▒█░")
