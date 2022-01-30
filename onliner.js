@@ -39,7 +39,7 @@ class Bot {
 }
 
 process.title = `[SERVER] Contas Online: ${tokens.length}`;
-console.log(chalk.green(`Contas Online!`) + (chalk.magenta(`Epic `)) + (chalk.cyanBright(`[SISTEMA] `)) + (chalk.red(`Contas Online: ${tokens.length}`)));
+console.log(chalk.green(`Contas Online!`)) + (chalk.cyanBright(`[SISTEMA] `)) + (chalk.red(`Contas Online: ${tokens.length}`)));
 console.log ("")
 console.log(" ▒██░░░░▐█▀▀░░▄█▀▄─▒██▄░▒█▌░▐█▀█▄▒▐█▀▀▄▒▐█▀▀█▌▒█▀█▀█▒██▄░▒█▌")
 console.log(" ▒██░░░░▐█▀▀░▐█▄▄▐█▒▐█▒█▒█░░▐█▌▐█▒▐█▒▐█▒▐█▄▒█▌░░▒█░░▒▐█▒█▒█░")
