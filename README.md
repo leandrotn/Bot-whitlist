@@ -1,4 +1,2 @@
-Modificado E adicionado Suporte 24/7
-By:LEANDROTN#0101
- 
-Primeiro projeto  sem obfuscação aproveitem!
+Sistem de wl completo para seu servidor rp/rpg/samp etc...
+By:LEANDROTN
