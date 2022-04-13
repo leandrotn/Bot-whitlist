@@ -1,2 +1,2 @@
 Sistem de wl completo para seu servidor rp/rpg/samp etc...
-By:LEANDROTN
+
